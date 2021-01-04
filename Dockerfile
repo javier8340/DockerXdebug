@@ -1,5 +1,5 @@
-FROM tomsik68/xampp
-
+FROM tomsik68/xampp:latest
+MAINTAINER Javier GG <jgg8340@gmail.com>
 
 RUN sudo apt-get install php-xdebug && \
  
